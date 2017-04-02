@@ -99,6 +99,6 @@ h4 {
 
 @media screen and (max-width: 480px) {
 
-	#me {width:100%}
-
+	#me {width:100%; margin-left:5px;}
+	#summary {padding-right:0px;}
 }
