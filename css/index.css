@@ -1,19 +1,97 @@
 body {
-/*	margin-left: 10px;*/
-	margin: 0 auto;
 	padding-top: 60px;
 	text-align: left;
+	font-family: 'Raleway', serif;
+	color: #2a2a2b;
+	background: #eae0eb;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.page-wrapper {
+	margin: 0 auto;
+}
+
+.icons {
+	font-size: 35px;
 }
 
 .fa {
-	font-size: 30px !important;
+	color: #2a2a2b;
+}
+
+.fa-envelope-square:hover {
+	color: #a77b86;
+}
+
+.fa-github-square:hover {
+	color: #a77b86;
+}
+
+.fa-linkedin-square:hover {
+	color: #a77b86;
+}
+
+h3 {
+/*	display: inline-block;*/
+	padding: 5px 5px 5px 5px;
+	font-family: "Poppins", "Raleway", serif;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+/*	background-image: url("../images/nightsky.jpg");*/
+}
+
+.pics {
+	background-image: url("../images/placeholder.jpg");
+	background-size: contain;
+	width: 300px;
+	height: 200px;
+	margin-bottom: 0;
+}
+
+.content {
+	width: 300px;
+	height: 200px;
+	background-color:rgba(0,0,0,0.7);
+	opacity: 0;
+}
+
+h4 {
+	color: #eae0eb;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.pics:hover .content {
+	opacity: 1;
+}
+
+.col-md-4 {
+	min-width: 300px;
+}
+
+
+.descriptions {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.blocks {
+	padding-left: 15px;
+	height: 200;
 }
 
 #about {
-/*	text-align: center !important;*/
+	font-size: 20px;
 	margin-left: 10px;
 }
 
+#summary {
+	padding-right: 40px;
+}
+
 #me {
-	width: 300px;
+	width: 350px;
 }
